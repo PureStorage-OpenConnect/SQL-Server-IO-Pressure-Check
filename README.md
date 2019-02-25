@@ -1,5 +1,9 @@
 # SQL-Server-IO-Pressure-Check
-A perfmon data collector template for determining whether a SQL Server instance is experiencing IO related pressure. This data collector set uses the following perfmon counters:
+A perfmon data collector template for determining whether a SQL Server instance is experiencing IO related pressure. 
+
+## Trace Collector Overview
+
+This data collector set uses the following perfmon counters:
 
 `LogicalDisk(_Total)\Avg. Disk Bytes/Read`
 
@@ -64,3 +68,9 @@ In addition to the counters above, the following SQL Server specific counters ar
 `<instance-name>:Wait Statistics(Waits started per second)\Log write waits`
 
 `<instance-name>:Wait Statistics(Waits started per second)\Page IO latch waits`
+
+## Methodology
+
+The following walkthrough illustrates how the perfmon data collector can be used:
+
+<TBC>
