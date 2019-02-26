@@ -119,7 +119,13 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 2. Copy this file to a laptop or PC running Windows.
 
-3. To view the information collected by the Data Collector Set, install PAL (Performance-Analysis-for-Logs) using the .msi in this GitHub [repo](https://github.com/clinthuffman/PAL)
+3. To view the information collected by the Data Collector Set, install PAL (Performance-Analysis-for-Logs) using the .msi in this GitHub [repo](https://github.com/clinthuffman/PAL).
+
+4. Start the PAL tool, the windows app for this is simply called 'PAL'.
+
+5. Go to the "Counter Log" tab, hit browse and navigate to the location of the .BLG file:
+
+
 
 
 
