@@ -127,7 +127,9 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 ![image](https://user-images.githubusercontent.com/15145995/53410353-7f5d4f80-39bb-11e9-9496-edf9f2b18996.png)
 
-6. 
+6. Hit next, and from the 'Title' pull down list of values select the version of SQL Server that corresponds to the version of the instance the data collector set data was captured for, use "Microsoft SQL Server 2014" for versions 2014 and above:
+
+![image](https://user-images.githubusercontent.com/15145995/53415212-86d72580-39c8-11e9-9da9-8e167b846b6d.png)
 
 
 
