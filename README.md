@@ -115,6 +115,11 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 1. The perfmon data resides in a .BLG file:
 
+![image](https://user-images.githubusercontent.com/15145995/53409954-4e304f80-39ba-11e9-9775-39ebd1cf47b6.png)
+
+2. Copy this file to a laptop or PC running Windows.
+
+3. To view the information collected by the Data Collector Set, install PAL (Performance-Analysis-for-Logs) using the .msi in this GitHub [repo](https://github.com/clinthuffman/PAL)
 
 
 
