@@ -77,6 +77,9 @@ The following walkthrough illustrates how the perfmon data collector can be used
 
 2. Bring up perfmon, the fasest way to do this is to bring up the run prompt and enter perfmon.
 
-3. 
+3. In the left hand of perfmon, expand "Data collector sets", right click "User defined" and select 'New':
 
-<TBC>
+![capture](https://user-images.githubusercontent.com/15145995/53408754-3d320f00-39b7-11e9-84a5-4d95680e259b.PNG)
+
+4. 
+
