@@ -73,4 +73,10 @@ In addition to the counters above, the following SQL Server specific counters ar
 
 The following walkthrough illustrates how the perfmon data collector can be used:
 
+1. Download the SQL-Server-IO-Pressure-Check.xml file onto the server running the SQL Server instance that is the target for analysis.
+
+2. Bring up perfmon, the fasest way to do this is to bring up the run prompt and enter perfmon.
+
+3. 
+
 <TBC>
