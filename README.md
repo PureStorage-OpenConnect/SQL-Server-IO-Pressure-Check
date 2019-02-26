@@ -101,6 +101,10 @@ The following walkthrough illustrates how the perfmon data collector can be used
 
 - Right click on the data collector and select 'Start':
 
+![image](https://user-images.githubusercontent.com/15145995/53409610-42905900-39b9-11e9-8b18-dd767f93678c.png)
+
+- Right click on the data collector and select 'Properties' and then add a schedule to the schedule tab:
+
 
 
 
