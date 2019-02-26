@@ -103,7 +103,18 @@ The following walkthrough illustrates how the perfmon data collector can be used
 
 ![image](https://user-images.githubusercontent.com/15145995/53409610-42905900-39b9-11e9-8b18-dd767f93678c.png)
 
-- Right click on the data collector and select 'Properties' and then add a schedule to the schedule tab:
+- Right click on the data collector and select 'Properties' and then add a schedule to the schedule tab:#
+
+![image](https://user-images.githubusercontent.com/15145995/53409685-7cf9f600-39b9-11e9-9c94-ff9d21336626.png)
+
+Regardless of which approach is used to instigate the collection of perfmon data, the critical thing is that this takes place over the period when the SQL Server instance.
+
+2. Data collection can be stopped by right clicking on the data collector and selecting stop or letting data collection naturally stop when the end of the schedule is reached.
+
+### 3. Analyzing The Data Collector Set Log File
+
+1. The perfmon data resides in a .BLG file:
+
 
 
 
