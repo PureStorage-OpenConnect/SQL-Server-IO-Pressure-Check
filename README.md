@@ -125,6 +125,9 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 5. Go to the "Counter Log" tab, hit browse and navigate to the location of the .BLG file:
 
+![image](https://user-images.githubusercontent.com/15145995/53410353-7f5d4f80-39bb-11e9-9496-edf9f2b18996.png)
+
+6. 
 
 
 
