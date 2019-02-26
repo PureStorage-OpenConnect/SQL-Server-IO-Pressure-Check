@@ -81,7 +81,13 @@ The following walkthrough illustrates how the perfmon data collector can be used
 
 ![capture](https://user-images.githubusercontent.com/15145995/53408754-3d320f00-39b7-11e9-84a5-4d95680e259b.PNG)
 
-4. Change the name of the collector from "New Data Collector Set" to something more meaningful, leave the radio button on "Create from template (Recommended)":
+4. Change the name of the collector from "New Data Collector Set" to something more meaningful, leave the radio button on "Create from template (Recommended)" and then hit 'Next':
+
+![image](https://user-images.githubusercontent.com/15145995/53409059-ef69d680-39b7-11e9-9dd1-e8e7eb5093a5.png)
+
+5. Click on the browse button and navigate to the location of the SQL-Server-IO-Pressure-Check.xml file:
+
+
 
 
 
