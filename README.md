@@ -87,6 +87,14 @@ The following walkthrough illustrates how the perfmon data collector can be used
 
 5. Click on the browse button and navigate to the location of the SQL-Server-IO-Pressure-Check.xml file:
 
+![image](https://user-images.githubusercontent.com/15145995/53409252-5c7d6c00-39b8-11e9-9140-4ad5984e5238.png)
+
+6. Double click on the file and then hit 'Finish':
+
+
+
+
+
 
 
 
