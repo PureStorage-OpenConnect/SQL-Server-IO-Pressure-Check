@@ -71,7 +71,7 @@ In addition to the counters above, data for the following SQL Server specific co
 
 ## Methodology
 
-### 1. Importing the Perfmon Data Collector Template
+### 1. Import the Perfmon Data Collector Template
 
 The following walk through illustrates how the perfmon data collector can be used:
 
@@ -79,7 +79,7 @@ The following walk through illustrates how the perfmon data collector can be use
 
 2. Bring up perfmon, the fastest way to do this is to bring up the run prompt and enter perfmon.
 
-3. In the left hand of perfmon, expand "Data collector sets", right click "User defined" and select 'New' then "Data Collector Set"
+3. In the left hand pane in perfmon, expand "Data collector sets", right click "User defined" and select 'New' then "Data Collector Set"
 
 ![capture](https://user-images.githubusercontent.com/15145995/53408754-3d320f00-39b7-11e9-84a5-4d95680e259b.PNG)
 
@@ -95,19 +95,21 @@ The following walk through illustrates how the perfmon data collector can be use
 
 ![image](https://user-images.githubusercontent.com/15145995/53409334-98b0cc80-39b8-11e9-85d8-56f524e27101.png)
 
+7. Double click on the Data Collector Set that has been imported (in the right hand pane) and add the SQL Server specific performance counters listed earlier. Note that the ones added needed to be prefixed by the name of the SQL Server instance that is the target of the perfmon counter data capture.
+
 ### 2. Running the Perfmon Data Collector Template
 
-1. The perfmon data collector set can be instigated in one of two ways:
+1. The perfmon data collector set can be instigated to capture data in one of two ways:
 
 - Right click on the data collector and select 'Start':
 
 ![image](https://user-images.githubusercontent.com/15145995/53409610-42905900-39b9-11e9-8b18-dd767f93678c.png)
 
-- Right click on the data collector and select 'Properties' and then add a schedule to the schedule tab:#
+- Right click on the data collector and select 'Properties' and then add a schedule to the schedule tab:
 
 ![image](https://user-images.githubusercontent.com/15145995/53409685-7cf9f600-39b9-11e9-9c94-ff9d21336626.png)
 
-Regardless of which approach is used to instigate the collection of perfmon data, the critical thing is that this takes place over the period when the SQL Server instance.
+It is critical that data collection takes place during a time windows when the SQL Server instance is processing a workload which is suspected to be impacted by poor storage performance.
 
 2. Data collection can be stopped by right clicking on the data collector and selecting stop or letting data collection naturally stop when the end of the schedule is reached.
 
@@ -117,7 +119,7 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 ![image](https://user-images.githubusercontent.com/15145995/53409954-4e304f80-39ba-11e9-9775-39ebd1cf47b6.png)
 
-2. Copy this file to a laptop or PC running Windows.
+2. Copy the .BLG file to a laptop or PC running Windows.
 
 3. To view the information collected by the Data Collector Set, install PAL (Performance-Analysis-for-Logs) using the .msi in this GitHub [repo](https://github.com/clinthuffman/PAL).
 
@@ -133,11 +135,19 @@ Regardless of which approach is used to instigate the collection of perfmon data
 
 7. On the questions tab provide values for the following questions:
 
-- OLTPvsOLAP
-- OS
-- PhysicalMemory
-- PLEHealth
-- UsingInMem
+- `BPEHealth`      leave the answer to this set to its default
+
+- `OLTPvsOLAP`     if the instance is processing OLTP workloads, select 'True' otherwise select 'False'
+
+- `OS`             the operating system hosting the SQL Server instance
+
+- `PhysicalMemory` the amount of physical memory in the server
+
+- `PLEHealth`      set this to (SQL Server max memory / 4) * 300
+
+- `UsingInMem`     set this to 'True' if memory optimized tables are in use, otherwise set it to 'False'
+
+
 
 
 
