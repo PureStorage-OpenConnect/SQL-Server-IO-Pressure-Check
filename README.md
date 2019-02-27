@@ -1,5 +1,5 @@
 # SQL-Server-IO-Pressure-Check
-A perfmon data collector template for determining whether a SQL Server instance is experiencing IO related pressure. 
+A perfmon data collector template for determining whether a SQL Server instance is experiencing IO related pressure. For anyone familiar with Oracle Automartic Workload Reports (AWR), this provides the means of rendering a similar type of report, but for SQL Server.
 
 ## Trace Collector Overview
 
