@@ -149,7 +149,7 @@ It is critical that data collection takes place during a time windows when the S
 
 8. Navigate to the 'Reports' tab, this allows the name format and location of the html files that PAL generates to be changed, change these as required, otherwise leave them as they are.
 
-9. Navigate to the 'Execute' tab and hit finish in order for PAL to analyze the .BLG file and generate reports files.
+9. Navigate to the 'Execute' tab and hit finish in order for PAL to analyze the .BLG file and generate a report file.
 
 
 
