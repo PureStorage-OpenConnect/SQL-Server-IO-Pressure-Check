@@ -29,7 +29,7 @@ This data collector set uses the following perfmon counters:
 
 `System\Processor Queue Length`
 
-In addition to the counters above, data for the following SQL Server specific counters should also be collected, note that these are prefixed by the name of the SQL Server instance that is the target of perfmon statistics capture: 
+In addition to the counters above, data for the following SQL Server specific counters should also be collected, note that these are prefixed by the name of the SQL Server instance that is the target of perfmon statistics capture exercise:
 
 `<instance-name>:Buffer Node(000)\Page life expectancy`
 
