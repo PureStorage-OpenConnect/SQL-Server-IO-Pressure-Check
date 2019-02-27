@@ -113,7 +113,7 @@ It is critical that data collection takes place during a time windows when the S
 
 2. Data collection can be stopped by right clicking on the data collector and selecting stop or letting data collection naturally stop when the end of the schedule is reached.
 
-### 3. Analyzing The Data Collector Set Log File
+### 3. Generate a PAL Report From The Data Collector .BLG File
 
 1. The perfmon data resides in a .BLG file:
 
@@ -150,6 +150,8 @@ It is critical that data collection takes place during a time windows when the S
 8. Navigate to the 'Reports' tab, this allows the name format and location of the html files that PAL generates to be changed, change these as required, otherwise leave them as they are.
 
 9. Navigate to the 'Execute' tab and hit finish in order for PAL to analyze the .BLG file and generate a report file.
+
+### 4. Analyze The Contents of The PAL Report
 
 
 
